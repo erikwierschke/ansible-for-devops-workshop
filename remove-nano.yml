@@ -1,0 +1,7 @@
+---
+- name: remove the nano package
+  hosts: all
+  become: yes
+  yum:
+    name: nano
+    state: absent
