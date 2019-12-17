@@ -1,5 +1,0 @@
----
-
-timesync_blacklist:
-  - docker
-  - virtualbox

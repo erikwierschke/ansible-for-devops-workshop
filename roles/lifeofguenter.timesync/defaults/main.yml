@@ -1,6 +1,0 @@
----
-
-timesync_explicit_disable: false
-
-timesync_servers:
-  - time.google.com

@@ -4,4 +4,4 @@
   become: yes
 
   roles:
-    - lifeofguenter.timesync
+    - sparknsh.ntp
