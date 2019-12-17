@@ -1,7 +1,10 @@
 ---
-- name: remove the nano package
+- name: remove nano
   hosts: all
   become: yes
-  yum:
-    name: nano
-    state: absent
+
+  tasks:
+  - name: remove the nano package
+    yum:
+      name: nano
+      state: absent
